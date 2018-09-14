@@ -4,5 +4,5 @@ Description="Forking Ping Daemon"
 [Service]
 Type=oneshot
 
-ExecStart=/home/root/forking-pinger
+ExecStart=/usr/local/bin/forking-pinger
 RemainAfterExit=yes
