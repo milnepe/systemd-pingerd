@@ -4,4 +4,4 @@ Description="Forking Pinger Daemon"
 [Service]
 Type=forking
 
-ExecStart=/home/root/forking-pinger
+ExecStart=/usr/local/bin/forking-pinger
