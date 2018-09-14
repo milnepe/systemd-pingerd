@@ -2,6 +2,6 @@
 
 # Forking Pinger Daemon
 
-/usr/bin/python3 -u /home/root/pingerd.py &
+/usr/bin/python3 -u /usr/local/bin/pingerd.py &
 
 exit 0
