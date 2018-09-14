@@ -1,0 +1,8 @@
+[Unit]
+Description="Forking Ping Daemon"
+
+[Service]
+Type=oneshot
+
+ExecStart=/home/root/forking-pinger
+RemainAfterExit=yes

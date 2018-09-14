@@ -1,0 +1,12 @@
+# This unit will daemonise pingerd directly without using a script to fork it
+# This simplifies the daemon process and takes full advantage of systemd's 
+# process management capabilities
+
+[Unit]
+Description="Pinger Daemon"
+
+[Service]
+Type=simple
+
+# Start unbuffered
+ExecStart=/usr/bin/python3 -u /home/root/pingerd.py
