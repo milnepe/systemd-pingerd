@@ -9,4 +9,4 @@ Description="Pinger Daemon"
 Type=simple
 
 # Start unbuffered
-ExecStart=/usr/bin/python3 -u /home/root/pingerd.py
+ExecStart=/usr/bin/python3 -u /usr/local/bin/pingerd.py
